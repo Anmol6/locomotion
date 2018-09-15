@@ -7,7 +7,6 @@ Then run ``` python simbicon.py``` with relevant parameters as specified in the 
 Example:
 ``` python simbicon.py -m jog -p settings/config.yml```
 
-
 ### CMA Optimization 
 
 CMA is used to optimize simbicon parameters (target angles, torso_kp, torso_kd, FSM time interval) for a given target velocity and style.
@@ -19,5 +18,8 @@ Example: Here we use the initial parameters for jogging (which is at 1.8m/s) to 
 ```python cma.py -lm jog -sm running -sp settings/cma_config.yml -tv 3.5 ```
 We can then visualize the result:
 ```python simbicon.py -m running -f cma_config.yml```
+
+Here's an example of a running biped [video](https://www.youtube.com/watch?v=ytE2kxJCwqo)
+
 ### Acknowledgements
 Thanks to [Ben Ling](https://www.cs.ubc.ca/~hyuling/) for the CMA optimization code and [Michiel Van de Panne](https://www.cs.ubc.ca/~van/) for helpful discussions. 
