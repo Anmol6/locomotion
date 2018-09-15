@@ -19,7 +19,7 @@ Example: Here we use the initial parameters for jogging (which is at 1.8m/s) to 
 We can then visualize the result:
 ```python simbicon.py -m running -f cma_config.yml```
 
-Here's an example of a running biped [video](https://www.youtube.com/watch?v=ytE2kxJCwqo)
+Here's a [video](https://www.youtube.com/watch?v=ytE2kxJCwqo) of a running biped.
 
 ### Acknowledgements
 Thanks to [Ben Ling](https://www.cs.ubc.ca/~hyuling/) for the CMA optimization code and [Michiel Van de Panne](https://www.cs.ubc.ca/~van/) for helpful discussions. 
