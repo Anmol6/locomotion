@@ -19,4 +19,5 @@ Example: Here we use the initial parameters for jogging (which is at 1.8m/s) to 
 ```python cma.py -lm jog -sm running -sp settings/cma_config.yml -tv 3.5 ```
 We can then visualize the result:
 ```python simbicon.py -m running -f cma_config.yml```
-
+### Acknowledgements
+Thanks to [Ben Ling](https://www.cs.ubc.ca/~hyuling/) for the CMA optimization code and [Michiel Van de Panne](https://www.cs.ubc.ca/~van/) for helpful discussions. 
