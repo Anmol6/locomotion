@@ -1,3 +1,6 @@
+Here's a [video](https://www.youtube.com/watch?v=ytE2kxJCwqo) of a running biped.
+
+
 ### Simbicon Controller
 Implementation of the SIMBICON [paper](http://www.cs.ubc.ca/~van/papers/2007-siggraph-simbicon.pdf). In order to visulize a motion, specify the target angles and other parameters in a .yml file. (See `settings/config.yml` for an example of how to specify this file.)
 
@@ -19,7 +22,6 @@ Example: Here we use the initial parameters for jogging (which is at 1.8m/s) to 
 We can then visualize the result:
 ```python simbicon.py -m running -f cma_config.yml```
 
-Here's a [video](https://www.youtube.com/watch?v=ytE2kxJCwqo) of a running biped.
 
 ### Acknowledgements
 Thanks to [Ben Ling](https://www.cs.ubc.ca/~hyuling/) for the CMA optimization code and [Michiel Van de Panne](https://www.cs.ubc.ca/~van/) for helpful discussions. 
