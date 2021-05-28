@@ -1,8 +1,10 @@
+Implementation of the SIMBICON [paper](http://www.cs.ubc.ca/~van/papers/2007-siggraph-simbicon.pdf). 
+
 Here's a [video](https://www.youtube.com/watch?v=ytE2kxJCwqo) of a running biped.
 
 
 ### Simbicon Controller
-Implementation of the SIMBICON [paper](http://www.cs.ubc.ca/~van/papers/2007-siggraph-simbicon.pdf). In order to visulize a motion, specify the target angles and other parameters in a .yml file. (See `settings/config.yml` for an example of how to specify this file.)
+In order to visualize a motion, specify the target angles and other parameters in a .yml file. (See `settings/config.yml` for an example of how to specify this file.)
 
 Then run ``` python simbicon.py``` with relevant parameters as specified in the `simbicon.py` file. 
 
