@@ -1,5 +1,7 @@
 Implementation of the SIMBICON [paper](http://www.cs.ubc.ca/~van/papers/2007-siggraph-simbicon.pdf). 
 
+<img width="1088" alt="image" src="https://user-images.githubusercontent.com/13502307/202119195-cf9af1f4-2809-49bd-b528-e301e9a0eca5.png">
+
 Here's a [video](https://www.youtube.com/watch?v=ytE2kxJCwqo) of a running biped.
 
 
